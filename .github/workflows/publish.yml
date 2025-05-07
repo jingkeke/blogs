@@ -16,7 +16,7 @@ jobs:
     - name: Build the site
       run: |
         # mkdir _site
-        echo '<h1>Hello, world!</h1>' > _site/index.html
+        # echo '<h1>Hello, world!</h1>' > _site/index.html
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
   deploy:
